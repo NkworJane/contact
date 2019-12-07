@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: verdana, sans-serif;
+	font-weight: 500;
+	line-height: 2;
+	font-size: 625;
+	padding: 5px;
+}
+
+.text{
+	width:80%;
+	font-size: 0.9rem;
+	line-height: 2;
+	text-align: left;
+	cursor: progress;
+	border-radius: 5px;
+	margin:5px;
+	color:black;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	/*background-color:#e0e0eb; */
+	}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    box-shadow: 0 0 20px 0 rgba(72,94,116,7);
+    background-color: #fff;
+}
+
+.container{
+   	display: flex;
+   	flex-direction: column;
+   	flex:0;
+   	align-items: center;
+   	height: 70vh;
+   	justify-content: center;
+    background-color: #f1f1f2;
+    box-sizing: border-box;
+    border-radius: 10px;
+  	padding: 30px 40px;
+	box-shadow: 0 0 20px 0 rgba(72,94,116,7);
+}
+label{
+	display:block;
+}
+
+.contact{
+	font-size:2em;
+	text-align: center;
+	color:#004080;
+	margin-top: 0;
+}
+
+
+.submit{
+	width: 80%;
+    background-color:#004080;
+    color: #fff; 
+    border: none;
+    text-align: center;
+    padding:8px;
+    font-size: 0.6em;
+    border-radius: 2px;
+    text-align: center;
+
+}	
+table, thead, tbody{
+	table-layout: fixed;
+	width: 50%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	cursor: pointer;
+
+}
+thead th{
+	text-align: center;
+
+}
+tbody td{
+	text-align: center;
+
+}
+th, td{
+	padding:10px;
+}
+ #contactList{
+ 	border:1px solid black;
+	margin-top: 10px;
+	text-align: left;
+}
+
+tr:nth-child(even)
+{
+	background-color: #f2f2f2
+}
+
+#delete{
+	/*border: 1px solid black;*/
+	border: none;
+	background-color: red;
+	color: white;
+}
+
+#edit{
+	/*border: 1px solid black;*/
+	border: none;
+	background-color: cyan;
+	color: white;
+}
+
+
+#contact-result{
+	width: 50%;
+}
+
+.alert{
+	border:1px solid black;
+	background-color: red;
+}
+
+.name-input{
+	border:1px solid black;
+	background-color: blue;
+}
+.number-input{
+	border:1px solid black;
+	background-color: green;
+}
+.address-input{
+	border:1px solid black;
+	background-color: orangered;
+}
+
+.div{
+	border:1px solid black;
+	background-color: purple;
+	color: white;
+}
