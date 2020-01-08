@@ -1,4 +1,4 @@
-// console.log('yeah it works with two javascript files');
+
 const submitButton = document.querySelector(".submit") ;
 let input = document.querySelector(".inputText");
 const container = document.querySelector(".contactList");
@@ -74,7 +74,6 @@ addForm.addEventListener('submit', function(e)
 
 
 
- //new item("Sport");
+ 
 
-// submitButton.addEventListener('click', check);
 
